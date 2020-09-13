@@ -5,13 +5,23 @@ Problem statement: The Universal Bank is interested in growing it's base of asse
 The predictive model that I have used in this case is Logistic Regression Classifier. The dataset constitutes information about 5000 customers. Following is a description of the attributes that I have used to study customer behaviour.
 
 Age- Customer’s age in completed years
+
 Experience- Number of years of professional experience
+
 Income- Annual income of the customer ($000s)
+
 Family- Size Family size of the customer
+
 CCAvg- Average spending on credit cards per month ($000s)
+
 Education- Education Level. 1: Undergrad; 2: Graduate; 3: Advanced/Professional
+
 Mortgage- Value of house mortgage if any ($000s)
+
 Securities- Account Coded as 1 if customer has securities account with bank
+
 CD Account- Coded as 1 if customer has certificate of deposit (CD) account with bank
+
 Online Banking- Coded as 1 if customer uses Internet banking facilities
+
 Credit Card- Coded as 1 if customer uses credit card issued by Universal Bank
