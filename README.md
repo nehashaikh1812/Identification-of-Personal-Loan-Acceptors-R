@@ -33,7 +33,7 @@ If we look at the summary of the logistic regression model, where the independen
 How do I decide these variables are statistically significant? 
 I looked at the p-values associated with coefficients of attributes in the model summary.
 
-confidence level = (1 - p-value) X 100
+confidence level = (1 - p-value) x 100
 
 implies, smaller the p-value, greater will be the confidence level for that variable.
 
