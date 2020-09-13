@@ -25,3 +25,17 @@ CD Account- Coded as 1 if customer has certificate of deposit (CD) account with 
 Online Banking- Coded as 1 if customer uses Internet banking facilities
 
 Credit Card- Coded as 1 if customer uses credit card issued by Universal Bank
+
+
+
+If we look at the summary of the logistic regression model, where the independent varibales are all the features described above, and the target variable is whether or not the customer will accept a personal loan offer ( 1: accept 0: reject), we find that there are 7 attributes that are statistically significant in the order - Income, Family size, Education level(graduate), Education level(professional), credit card average, CD Account and Credit Card.
+
+How do I decide these variables are statistically significant? 
+I looked at the p-values associated with coefficients of attributes in the model summary.
+
+confidence level = (1 - p-value) X 100
+
+implies, smaller the p-value, greater will be the confidence level for that variable.
+
+
+Also, for evaluating the model performance, take a look at the confusion matrix. Metrics like accuracy and error rate can be calculated from there.
