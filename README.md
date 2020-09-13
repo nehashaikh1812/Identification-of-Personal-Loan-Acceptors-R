@@ -26,7 +26,7 @@ Online Banking- Coded as 1 if customer uses Internet banking facilities
 
 Credit Card- Coded as 1 if customer uses credit card issued by Universal Bank
 
-
+I partitioned the data into training (3000 records) and test (2000 records) sets.
 
 If we look at the summary of the logistic regression model, where the independent varibales are all the features described above, and the target variable is whether or not the customer will accept a personal loan offer ( 1: accept 0: reject), we find that there are 7 attributes that are statistically significant in the order - Income, Family size, Education level(graduate), Education level(professional), credit card average, CD Account and Credit Card.
 
@@ -39,3 +39,12 @@ implies, smaller the p-value, greater will be the confidence level for that vari
 
 
 Also, for evaluating the model performance, take a look at the confusion matrix. Metrics like accuracy and error rate can be calculated from there.
+
+Using the formulas -
+
+error rate = (No. of False positives + No. of False Negatives) / total number of records   AND
+
+accuracy = 1 - error rate
+
+the model acheived an accuracy of 98.7% on the test set.
+
