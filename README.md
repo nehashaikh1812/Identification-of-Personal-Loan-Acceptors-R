@@ -46,5 +46,5 @@ error rate = (No. of False positives + No. of False Negatives) / total number of
 
 accuracy = 1 - error rate
 
-the model acheived an accuracy of 98.7% on the test set.
+I calculated the model accuracy on the test set, which turned out to be 98.7% .
 
